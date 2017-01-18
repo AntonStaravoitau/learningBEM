@@ -1,0 +1,9 @@
+.footer {
+    width: 100%;
+    padding: 7px 42.3% 5px 40% ;
+
+    background-image: url('images/footerBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 10px 0 rgba(0,0,0,.8) inset;
+}

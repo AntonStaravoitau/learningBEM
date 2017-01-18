@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>learning BEM</title>
+    <link href="reset.css" rel="stylesheet">
+    <link href="common/header/header.css" rel="stylesheet">
+    <link href="common/features/features.css" rel="stylesheet">
+    <link href="common/content/content.css" rel="stylesheet">
+    <link href="common/advantages/advantages.css" rel="stylesheet">
+    <link href="common/header/header.css" rel="stylesheet">
+    <link href="common/logo/logo.css" rel="stylesheet">
+    <link href="common/navigation/navigation.css" rel="stylesheet">
+    <link href="common/video/video.css" rel="stylesheet">
+    <link href="common/video-content/video-content.css" rel="stylesheet">
+    <link href="common/footer/footer.css" rel="stylesheet">
+    <link href="common/devices/devices.css" rel="stylesheet">
+    <link href="common/advantages-list/advantages-list.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+
+
+</head>
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <div class="logo">
+                <div class="logo__image"></div>
+                <span class="logo__text">THEYALOW</span>
+            </div>
+            <span class="header-logo__text">craft by css author.com</span>
+        </div><nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__list-item">
+                    <img class="navigation__icon" src="common/navigation/images/aboutUsIcon.png">
+                    <span class="navigation__text">about us</span>
+                </li>
+                <li class="navigation__list-item">
+                    <img class="navigation__icon" src="common/navigation/images/servicesIcon.png">
+                    <span class="navigation__text">services</span>
+                </li>
+                <li class="navigation__list-item">
+                    <img class="navigation__icon" src="common/navigation/images/contactIcon.png">
+                    <span class="navigation__text">contact</span>
+                </li>
+            </ul>
+        </nav>
+        <video class="video" width="550" height="330" controls="controls" poster="common/video/images/videoPoster.jpg">
+            <source src="https://youtu.be/LbpDxrew4A0">
+        </video>
+        <h1 class="header__text"><span class="header__text--yellow">The cool</span> <br> The minimal</h1>
+    </header>
+    <main class="main">
+        <section class="features">
+            <div class="table-icons">
+                <ul class="row-icons">
+                    <li class="row-icons__item">
+                        <img class="row-icons__image" src="common/features/images/designIcon.png">
+                        <p class="row-icons__text">better design</p>
+                    </li>
+                    <li class="row-icons__item">
+                        <img class="row-icons__image" src="common/features/images/customizeIcon.png">
+                        <p class="row-icons__text">customize</p>
+                    </li>
+                    <li class="row-icons__item">
+                        <img class="row-icons__image" src="common/features/images/planeIcon.png">
+                        <p class="row-icons__text">its free</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="content">
+            <h2 class="content__header">Lorem ipsum dolor sit amet</h2>
+            <div class="video-content">
+                <div class="video-content__description">
+                    <span class="content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+                    <img class="content__icon" src="common/content/images/addIcon.png">
+                </div><iframe class="video-content__video" src="https://www.youtube.com/embed/frdj1zb9sMY" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="content__twitter">
+                <span class="content__text">22</span>
+                <img class="content__icon" src="common/content/images/addIcon.png">
+            </div>
+        </section>
+        <section class="advantages">
+            <h2 class="advantages__header">Lorem ipsum dolor sit amet</h2>
+            <div class="devices">
+                <img class="devices__free" src="common/devices/images/itsFreeIcon.png">
+                <img class="devices__desktop" src="common/devices/images/desktopIcon.png">
+                <img class="devices__tablet" src="common/devices/images/tabletIcon.png">
+                <img class="devices__mobile" src="common/devices/images/mobileIcon.png">
+            </div>
+            <ul class="advantages-list">
+                <li class="advantages-list__item"><span class="advantages-list__text">Sed ut perspiciatis, unde omnis</span></li>
+                <li class="advantages-list__item"><span class="advantages-list__text">Lorem ipsum dolor sit amet, consectetur adipiscing</span></li>
+                <li class="advantages-list__item"><span class="advantages-list__text">Sed ut perspiciatis, unde omnis</span></li>
+                <li class="advantages-list__item"><span class="advantages-list__text">Lorem ipsum dolor sit amet, consectetur adipiscing</span></li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="logo--small">
+            <div class="logo__image logo__image--small"></div>
+            <p class="logo__text logo__text--small">THEYALOW</p>
+        </div>
+    </footer>
+</body>
+</html>

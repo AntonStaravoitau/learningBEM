@@ -1,0 +1,47 @@
+.logo {
+    float: left;
+
+    width: 311px;
+    height: 83px;
+}
+
+.logo__image {
+    float: left;
+
+    width: 26.68%;
+    height: 100%;
+
+    background-image: url('images/logo.png');
+    background-size: cover;
+}
+
+.logo__text {
+    font-family: 'Lucida Sans';
+    font-size: 41.05px;
+    font-style: italic;
+
+    float: left;
+
+    padding-top: 28px;
+    padding-left: 6px;
+
+    color: white;
+}
+
+.logo--small {
+    width: 230px;
+    height: 53px;
+}
+
+.logo__image--small {
+    width: 23%;
+
+    background-image: url('images/logoSmall.png');
+}
+
+.logo__text--small {
+    font-size: 29.05px;
+
+    padding-top: 13px;
+    padding-left: 7px;
+}

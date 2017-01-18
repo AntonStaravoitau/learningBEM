@@ -1,0 +1,36 @@
+.video-content {
+    position: relative;
+
+    box-sizing: border-box;
+    width: 64.3%;
+    min-height: 235px;
+
+    background-color: #ec9e03;
+}
+
+.video-content__description {
+    line-height: 195%;
+
+    position: relative;
+
+    display: inline-block;
+
+    width: 52%;
+    height: 100%;
+    padding: 21px 40px 25px 29px;
+
+    vertical-align: top;
+}
+
+.video-content__video {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: inline-block;
+
+    width: 48%;
+    height: 100%;
+
+    vertical-align: top;
+}

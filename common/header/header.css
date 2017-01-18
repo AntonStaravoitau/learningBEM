@@ -1,0 +1,58 @@
+.header {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 28px 10.8% 80px 10.8%;
+
+    background-image: url('images/headerBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-logo {
+    display: inline-block;
+}
+
+.header-logo__text {
+    font-family: 'Lao UI';
+    font-size: 13.05px;
+
+    float: left;
+
+    padding-top: 51px;
+    padding-left: 4px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: white;
+}
+
+.header__text {
+    font-family: 'Asap', sans-serif;
+    font-size: 63.05px;
+
+    float: right;
+
+    margin-top: 10.38%;
+    padding-right: 100px;
+
+    text-transform: uppercase;
+
+    color: white;
+}
+
+.header__text--yellow {
+    clear: right;
+
+    margin-bottom: 12px;
+    margin-left: 4%;
+
+    color: #f5c506;
+}
+
+.header::after {
+    display: table;
+    clear: both;
+
+    content: '';
+}

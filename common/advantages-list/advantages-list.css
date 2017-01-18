@@ -1,0 +1,25 @@
+.advantages-list {
+    float: right;
+
+    width: 345px;
+    margin-top: 85px;
+    margin-left: 80px;
+}
+
+.advantages-list__item {
+    font-size: 50px;
+    line-height: 83%;
+
+    list-style-type: disc;
+
+    color: #f5c506;
+}
+
+.advantages-list__text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+
+    vertical-align: top;
+
+    color: white;
+}
