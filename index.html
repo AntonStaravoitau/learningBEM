@@ -5,6 +5,7 @@
     <meta name=viewport content="width=device-width, initial-scale=1">
     <title>learning BEM</title>
     <link href="reset.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <link href="common/header/header.css" rel="stylesheet">
     <link href="common/features/features.css" rel="stylesheet">
     <link href="common/content/content.css" rel="stylesheet">
@@ -19,6 +20,7 @@
     <link href="common/advantages-list/advantages-list.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 
 
 </head>
@@ -33,15 +35,15 @@
         </div><nav class="navigation">
             <ul class="navigation__list">
                 <li class="navigation__list-item">
-                    <img class="navigation__icon" src="common/navigation/images/aboutUsIcon.png">
+                    <span class="navigation__icon icon-user"></span>
                     <span class="navigation__text">about us</span>
                 </li>
                 <li class="navigation__list-item">
-                    <img class="navigation__icon" src="common/navigation/images/servicesIcon.png">
+                    <span class="navigation__icon icon-wrench"></span>
                     <span class="navigation__text">services</span>
                 </li>
                 <li class="navigation__list-item">
-                    <img class="navigation__icon" src="common/navigation/images/contactIcon.png">
+                    <span class="navigation__icon icon-envelop"></span>
                     <span class="navigation__text">contact</span>
                 </li>
             </ul>
@@ -49,7 +51,11 @@
         <video class="video" width="550" height="330" controls="controls" poster="common/video/images/videoPoster.jpg">
             <source src="https://youtu.be/LbpDxrew4A0">
         </video>
-        <h1 class="header__text"><span class="header__text--yellow">The cool</span> <br> The minimal</h1>
+        <div class="header__text">
+            <span class="header__text--yellow">The cool</span>
+            <br>
+            <span class="header__text--white">The minimal</span>
+        </div>
     </header>
     <main class="main">
         <section class="features">

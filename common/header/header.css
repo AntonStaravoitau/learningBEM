@@ -14,7 +14,7 @@
 
 .header-logo__text {
     font-family: 'Lao UI';
-    font-size: 13.05px;
+    font-size: .8rem;
 
     float: left;
 
@@ -36,18 +36,22 @@
     margin-top: 10.38%;
     padding-right: 100px;
 
+    text-align: center;
     text-transform: uppercase;
-
-    color: white;
 }
 
 .header__text--yellow {
     clear: right;
 
-    margin-bottom: 12px;
-    margin-left: 4%;
+    text-align: center;
 
     color: #f5c506;
+}
+
+.header__text--white {
+    text-align: justify;
+
+    color: white;
 }
 
 .header::after {
