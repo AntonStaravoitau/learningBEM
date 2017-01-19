@@ -14,7 +14,7 @@
 
 .header-logo__text {
     font-family: 'Lao UI';
-    font-size: .8rem;
+    font-size: 0.8rem;
 
     float: left;
 
@@ -29,12 +29,13 @@
 
 .header__text {
     font-family: 'Asap', sans-serif;
-    font-size: 63.05px;
+    font-size: 4rem;
 
     float: right;
 
     margin-top: 10.38%;
-    padding-right: 100px;
+    margin-right: 5%;
+
 
     text-align: center;
     text-transform: uppercase;

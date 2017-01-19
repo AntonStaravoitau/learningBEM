@@ -1,13 +1,13 @@
 .advantages-list {
     float: right;
 
-    width: 345px;
+    width: 30.5%;
     margin-top: 85px;
     margin-left: 80px;
 }
 
 .advantages-list__item {
-    font-size: 50px;
+    font-size: 3.1rem;
     line-height: 83%;
 
     list-style-type: disc;
@@ -17,7 +17,7 @@
 
 .advantages-list__text {
     font-family: 'PT Sans', sans-serif;
-    font-size: 22px;
+    font-size: 1.4rem;
 
     vertical-align: top;
 
