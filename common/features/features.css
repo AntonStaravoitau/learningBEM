@@ -1,61 +1,34 @@
 .features {
-    display: table;
+	box-sizing: border-box;
+	width: 100%;
 
-    box-sizing: border-box;
-    width: 100%;
+	box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.table-icons {
-    margin-right: 10.8%;
-    margin-left: 10.8%;
+.features__item {
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+
+	border-right: 1px solid #d2d2d2;
 }
 
-.row-icons {
-    display: table-row;
-
-    width: 100%;
+.features__text {
+	font-family: "Segoe UI";
+	font-size: 1.8rem;
+	font-weight: lighter;
 }
 
-.row-icons__item {
-    display: table-cell;
+.features__icon {
+	color: #f5c506;
 
-    width: 1%;        /*I have no idea why*/
-
-    border: 1px solid #d2d2d2;
+	font-size: 6rem;
+	line-height: 120%;
 }
 
-.row-icons__text {
-    font-family: 'Segoe UI';
-    font-size: 1.8rem;
-    font-weight: lighter;
-
-    margin-bottom: 26px;
-
-    text-align: center;
-    vertical-align: bottom;
-    text-transform: uppercase;
-}
-
-.row-icons__image {
-    display: block;
-
-    margin: auto;
-    padding-bottom: 20px;
-}
-
-.row-icons__item:first-child .row-icons__image {
-    padding-top: 60px;
-}
-
-.row-icons__item:nth-child(2) .row-icons__image {
-    padding-top: 45px;
-}
-
-.row-icons__item:last-child .row-icons__image {
-    padding-top: 55px;
-}
-
-.row-icons__item:nth-child(2){
-    border-left: none;
-    border-right: none;
+.features__item:first-child {
+	border-left: 1px solid #d2d2d2;
 }

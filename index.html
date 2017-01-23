@@ -6,14 +6,16 @@
     <title>learning BEM</title>
     <link href="reset.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link href="common/common.css" rel="stylesheet">
+    <link href="grid.css" rel="stylesheet">
+    <link href="common/wrapper-content/wrapper-content.css" rel="stylesheet">
     <link href="common/header/header.css" rel="stylesheet">
     <link href="common/features/features.css" rel="stylesheet">
-    <link href="common/content/content.css" rel="stylesheet">
+    <link href="common/general-content/general-content.css" rel="stylesheet">
     <link href="common/advantages/advantages.css" rel="stylesheet">
     <link href="common/header/header.css" rel="stylesheet">
     <link href="common/logo/logo.css" rel="stylesheet">
     <link href="common/navigation/navigation.css" rel="stylesheet">
-    <link href="common/video/video.css" rel="stylesheet">
     <link href="common/video-content/video-content.css" rel="stylesheet">
     <link href="common/footer/footer.css" rel="stylesheet">
     <link href="common/devices/devices.css" rel="stylesheet">
@@ -23,90 +25,106 @@
     <link href="style.css" rel="stylesheet">
 
 
+
 </head>
 <body>
     <header class="header">
-        <div class="header-logo">
-            <div class="logo">
-                <div class="logo__image"></div>
-                <span class="logo__text">THEYALOW</span>
+        <div class="wrapper-content clearfix">
+            <div class="header__external-logo">
+                <div class="header__logo logo">
+                    <div class="logo__image"></div>
+                    <span class="logo__text">THEYALOW</span>
+                </div>
+                <span class="header-logo__text">craft by css author.com</span>
             </div>
-            <span class="header-logo__text">craft by css author.com</span>
-        </div><nav class="navigation">
-            <ul class="navigation__list">
-                <li class="navigation__list-item">
-                    <span class="navigation__icon icon-user"></span>
-                    <span class="navigation__text">about us</span>
-                </li>
-                <li class="navigation__list-item">
-                    <span class="navigation__icon icon-wrench"></span>
-                    <span class="navigation__text">services</span>
-                </li>
-                <li class="navigation__list-item">
-                    <span class="navigation__icon icon-envelop"></span>
-                    <span class="navigation__text">contact</span>
-                </li>
-            </ul>
-        </nav>
-        <video class="video" width="550" height="330" controls="controls" poster="common/video/images/videoPoster.jpg">
-            <source src="https://youtu.be/LbpDxrew4A0">
-        </video>
-        <div class="header__text">
-            <span class="header__text--yellow">The cool</span>
-            <br>
-            <span class="header__text--white">The minimal</span>
+            <nav class="header__navigation navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__list-item">
+                        <button class="navigation__button">
+                            <span class="navigation__icon icon-user"></span>
+                            <span class="navigation__text">about us</span>
+                        </button>
+                    </li>
+                    <li class="navigation__list-item">
+                        <button class="navigation__button">
+                            <span class="navigation__icon icon-wrench"></span>
+                            <span class="navigation__text">services</span>
+                        </button>
+                    </li>
+                    <li class="navigation__list-item">
+                        <button class="navigation__button">
+                            <span class="navigation__icon icon-envelope"></span>
+                            <span class="navigation__text">contact</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+            <video class="header__video" width="550" height="330" controls="controls" poster="common/navigation/images/videoPoster.jpg">
+                <source src="https://youtu.be/LbpDxrew4A0">
+            </video>
+            <div class="header__text">
+                <span class="header__text--primary">The cool</span>
+                <br>
+                <span class="header__text--secondary">The minimal</span>
+            </div>
         </div>
     </header>
     <main class="main">
         <section class="features">
-            <div class="table-icons">
-                <ul class="row-icons">
-                    <li class="row-icons__item">
-                        <img class="row-icons__image" src="common/features/images/designIcon.png">
-                        <p class="row-icons__text">better design</p>
-                    </li>
-                    <li class="row-icons__item">
-                        <img class="row-icons__image" src="common/features/images/customizeIcon.png">
-                        <p class="row-icons__text">customize</p>
-                    </li>
-                    <li class="row-icons__item">
-                        <img class="row-icons__image" src="common/features/images/planeIcon.png">
-                        <p class="row-icons__text">its free</p>
-                    </li>
-                </ul>
+            <div class="wrapper-content clearfix">
+                    <ul class="features__row-icons  grid grid-pad">
+                        <li class="features__item col-1-3">
+                            <span class="features__icon icon-cloud-download"></span>
+                            <p class="features__text">better design</p>
+                        </li>
+                        <li class="features__item col-1-3">
+                            <span class="features__icon icon-leaf"></span>
+                            <p class="features__text">customize</p>
+                        </li>
+                        <li class="features__item col-1-3">
+                            <span class="features__icon icon-paper-plane"></span>
+                            <br>
+                            <span class="features__text">its free</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
-        <section class="content">
-            <h2 class="content__header">Lorem ipsum dolor sit amet</h2>
-            <div class="video-content">
-                <div class="video-content__description">
-                    <span class="content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
-                    <img class="content__icon" src="common/content/images/addIcon.png">
-                </div><iframe class="video-content__video" src="https://www.youtube.com/embed/frdj1zb9sMY" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="content__twitter">
-                <span class="content__text">22</span>
-                <img class="content__icon" src="common/content/images/addIcon.png">
+        <section class="general-content">
+            <div class="wrapper-content grid grid-pad">
+                <h2 class="general-content__header">Lorem ipsum dolor sit amet</h2>
+                <div class="general-content__video video-content col-2-3">
+                    <div class="video-content__description">
+                        <span class="general-content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</span>
+                        <button class="general-content__icon-add icon-plus"></button>
+                    </div><iframe class="video-content__video" src="https://www.youtube.com/embed/frdj1zb9sMY" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="general-content__twitter col-1-3">
+                    <span class="general-content__text">22</span>
+                    <button class="general-content__icon-add icon-plus"></button>
+                </div>
             </div>
         </section>
         <section class="advantages">
-            <h2 class="advantages__header">Lorem ipsum dolor sit amet</h2>
-            <div class="devices">
-                <img class="devices__free" src="common/devices/images/itsFreeIcon.png">
-                <img class="devices__desktop" src="common/devices/images/desktopIcon.png">
-                <img class="devices__tablet" src="common/devices/images/tabletIcon.png">
-                <img class="devices__mobile" src="common/devices/images/mobileIcon.png">
+            <div class="wrapper-content clearfix">
+                <h2 class="advantages__header">Lorem ipsum dolor sit amet</h2>
+                <div class="advantages__devices-placeholder devices">
+                    <img class="devices__free" src="common/devices/images/itsFreeIcon.png">
+                    <img class="devices__desktop" src="common/devices/images/desktopIcon.png">
+                    <img class="devices__tablet" src="common/devices/images/tabletIcon.png">
+                    <img class="devices__mobile" src="common/devices/images/mobileIcon.png">
+                </div>
+                <ul class="advantages__list-placeholder advantages-list">
+                    <li class="advantages-list__item"><span class="advantages-list__text">Sed ut perspiciatis, unde omnis</span></li>
+                    <li class="advantages-list__item"><span class="advantages-list__text">Lorem ipsum dolor sit amet, consectetur adipiscing</span></li>
+                    <li class="advantages-list__item"><span class="advantages-list__text">Sed ut perspiciatis, unde omnis</span></li>
+                    <li class="advantages-list__item"><span class="advantages-list__text">Lorem ipsum dolor sit amet, consectetur adipiscing</span></li>
+                </ul>
             </div>
-            <ul class="advantages-list">
-                <li class="advantages-list__item"><span class="advantages-list__text">Sed ut perspiciatis, unde omnis</span></li>
-                <li class="advantages-list__item"><span class="advantages-list__text">Lorem ipsum dolor sit amet, consectetur adipiscing</span></li>
-                <li class="advantages-list__item"><span class="advantages-list__text">Sed ut perspiciatis, unde omnis</span></li>
-                <li class="advantages-list__item"><span class="advantages-list__text">Lorem ipsum dolor sit amet, consectetur adipiscing</span></li>
-            </ul>
         </section>
     </main>
     <footer class="footer">
-        <div class="logo--small">
+        <div class="footer__logo logo logo--small">
             <div class="logo__image logo__image--small"></div>
             <p class="logo__text logo__text--small">THEYALOW</p>
         </div>

@@ -1,0 +1,70 @@
+.general-content {
+	box-sizing: border-box;
+	width: 100%;
+	padding-top: 45px;
+	padding-bottom: 165px;
+
+	background-image: url("images/contentBackgroundElement.png");
+	background-repeat: repeat;
+	box-shadow: 1px 1px 5px rgba(0,0,0, 0.8) inset;
+}
+
+.general-content__header {
+	margin-bottom: 30px;
+
+	text-transform: uppercase;
+
+	color: #ffffff;
+
+	font-family: "PT Sans", sans-serif;
+	font-size: 2.5rem;
+	font-weight: lighter;
+}
+
+.general-content__video {
+	float: left;
+}
+
+.general-content__text {
+	color: #ffffff;
+
+	font-family: "Segoe UI Light";
+	font-size: 1.8rem;
+}
+
+.general-content__twitter {
+	position: relative;
+
+	float: right;
+
+	min-height: 235px;
+	padding-top: 20px;
+	padding-right: 20px;
+
+	text-align: right;
+
+	background-color: #ec9e03;
+	background-image: url("images/twitterIcon.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
+}
+
+.general-content::after {
+	display: table;
+	clear: both;
+
+	content: "";
+}
+
+.general-content__icon-add {
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+
+	cursor: pointer;
+
+	color: #ffffff;
+	border: none;
+	background-color: #ec9e03;
+}

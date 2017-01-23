@@ -1,47 +1,50 @@
 .logo {
-    float: left;
-
-    width: 311px;
-    height: 83px;
+	display: block;
 }
-
 .logo__image {
-    float: left;
+	float: left;
 
-    width: 26.68%;
-    height: 100%;
+	width: 85px;
+	height: 85px;
 
-    background-image: url('images/logo.png');
-    background-size: cover;
+	background-image: url("images/logo.png");
+	background-size: auto;
 }
 
 .logo__text {
-    font-family: 'Lucida Sans';
-    font-size: 2.5rem;
-    font-style: italic;
+	float: left;
 
-    float: left;
+	padding-top: 30px;
+	padding-left: 5px;
 
-    padding-top: 28px;
-    padding-left: 6px;
+	color: #ffffff;
 
-    color: white;
+	font-family: "Lucida Sans";
+	font-size: 2.5rem;
+	font-style: italic;
 }
 
 .logo--small {
-    width: 230px;
-    height: 53px;
+	width: 230px;
 }
 
 .logo__image--small {
-    width: 23%;
+	width: 53px;
+	height: 53px;
 
-    background-image: url('images/logoSmall.png');
+	background-image: url("images/logoSmall.png");
 }
 
 .logo__text--small {
-    font-size: 29.05px;
+	padding-top: 15px;
+	padding-left: 5px;
 
-    padding-top: 13px;
-    padding-left: 7px;
+	font-size: 1.8rem;
+}
+
+.logo::after {
+	display: table;
+	clear: both;
+
+	content: "";
 }

@@ -1,36 +1,38 @@
 .video-content {
-    position: relative;
+	position: relative;
 
-    box-sizing: border-box;
-    width: 64.3%;
-    min-height: 235px;
+	box-sizing: border-box;
+	min-height: 235px;
 
-    background-color: #ec9e03;
+	text-align: justify;
+
+	background-color: #ec9e03;
 }
 
 .video-content__description {
-    line-height: 195%;
+	position: relative;
 
-    position: relative;
+	display: inline-block;
 
-    display: inline-block;
+	box-sizing: border-box;
+	width: 52%;
+	height: 100%;
+	padding: 20px 30px 20px 30px;
 
-    width: 52%;
-    height: 100%;
-    padding: 21px 40px 25px 29px;
+	vertical-align: top;
 
-    vertical-align: top;
+	line-height: 200%;
 }
 
 .video-content__video {
-    position: absolute;
-    top: 0;
-    right: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
 
-    display: inline-block;
+	display: inline-block;
 
-    width: 48%;
-    height: 100%;
+	width: 48%;
+	height: 100%;
 
-    vertical-align: top;
+	vertical-align: top;
 }

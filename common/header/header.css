@@ -1,63 +1,73 @@
 .header {
-    box-sizing: border-box;
-    width: 100%;
-    padding: 28px 10.8% 80px 10.8%;
+	box-sizing: border-box;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 80px;
 
-    background-image: url('images/headerBackground.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: url("images/headerBackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.header-logo {
-    display: inline-block;
+.header__external-logo {
+	float: left;
+}
+
+.header__logo {
+	float: left;
+
+	margin-right: 5px;
 }
 
 .header-logo__text {
-    font-family: 'Lao UI';
-    font-size: 0.8rem;
+	float: left;
 
-    float: left;
+	margin-top: 50px;
 
-    padding-top: 51px;
-    padding-left: 4px;
+	text-align: center;
+	text-transform: uppercase;
 
-    text-align: center;
-    text-transform: uppercase;
+	color: #ffffff;
 
-    color: white;
+	font-family: "Lao UI";
+	font-size: 0.8rem;
+}
+
+.header__navigation {
+	float: right;
+
+	width: 45%;
+	margin-top: 40px;
 }
 
 .header__text {
-    font-family: 'Asap', sans-serif;
-    font-size: 4rem;
+	float: right;
 
-    float: right;
+	margin-top: 10%;
 
-    margin-top: 10.38%;
-    margin-right: 5%;
+	text-align: center;
+	text-transform: uppercase;
 
-
-    text-align: center;
-    text-transform: uppercase;
+	font-family: "Asap", sans-serif;
+	font-size: 4rem;
 }
 
-.header__text--yellow {
-    clear: right;
+.header__text--primary {
+	clear: right;
 
-    text-align: center;
+	text-align: center;
 
-    color: #f5c506;
+	color: #f5c506;
 }
 
-.header__text--white {
-    text-align: justify;
+.header__text--secondary {
+	text-align: justify;
 
-    color: white;
+	color: #ffffff;
 }
 
-.header::after {
-    display: table;
-    clear: both;
+.header__video {
+	float: left;
 
-    content: '';
+	margin-top: 50px;
 }

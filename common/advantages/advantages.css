@@ -1,27 +1,30 @@
 .advantages {
-  width: 100%;
-  padding: 3.3% 10.8% 7.7% 10.8%;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 100px;
 
-  background-image: url('images/advantagesBackground.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+	background-image: url("images/advantagesBackgroundElement.png");
+	background-repeat: repeat;
 }
 
 .advantages__header {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 2.7rem;
+	margin-bottom: 7px;
 
-  margin-bottom: 7px;
+	text-align: center;
+	text-transform: uppercase;
 
-  text-align: center;
-  text-transform: uppercase;
+	color: #f5c506;
 
-  color: #f5c506;
+	font-family: "PT Sans", sans-serif;
+	font-size: 2.7rem;
 }
 
-.advantages::after {
-  display: table;
-  clear: both;
+.advantages__devices-placeholder {
+	float: left;
+}
+.advantages__list-placeholder {
+	float: right;
 
-  content: '';
+	width: 30%;
+	margin-top: 85px;
 }
