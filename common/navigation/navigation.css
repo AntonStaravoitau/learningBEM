@@ -6,6 +6,8 @@
 .navigation {
 	display: table;
 
+	width: 100%;
+
 	box-shadow: var(--shadow-color) -5px -5px ,
 	var(--shadow-color) -9px -9px;
 }
