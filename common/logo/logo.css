@@ -1,47 +1,45 @@
 .logo {
-	display: block;
+    display: block;
 }
+
 .logo__image {
-	float: left;
+    float: left;
 
-	width: 85px;
-	height: 85px;
-
-	background-image: url("images/logo.png");
-	background-size: auto;
+    width: 85px;
+    height: 85px;
 }
 
 .logo__text {
-	float: left;
+    font-family: 'Lucida Sans';
+    font-size: 2.5rem;
+    font-style: italic;
 
-	padding-top: 30px;
-	padding-left: 5px;
+    float: left;
 
-	color: #ffffff;
+    padding-top: 25px;
+    padding-left: 3px;
 
-	font-family: "Lucida Sans";
-	font-size: 2.5rem;
-	font-style: italic;
+    color: #ffffff;
 }
 
 
 .logo__image--small {
-	width: 53px;
-	height: 53px;
+    width: 53px;
+    height: 53px;
 
-	background-image: url("images/logoSmall.png");
+    background-image: url('images/logoSmall.png');
 }
 
 .logo__text--small {
-	padding-top: 15px;
-	padding-left: 5px;
+    font-size: 1.8rem;
 
-	font-size: 1.8rem;
+    padding-top: 15px;
+    padding-left: 5px;
 }
 
 .logo::after {
-	display: table;
-	clear: both;
+    display: table;
+    clear: both;
 
-	content: "";
+    content: '';
 }

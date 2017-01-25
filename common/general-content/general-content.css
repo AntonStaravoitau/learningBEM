@@ -1,70 +1,82 @@
 .general-content {
-	box-sizing: border-box;
-	width: 100%;
-	padding-top: 45px;
-	padding-bottom: 165px;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 165px;
 
-	background-image: url("images/contentBackgroundElement.png");
-	background-repeat: repeat;
-	box-shadow: 1px 1px 5px rgba(0,0,0, 0.8) inset;
+    background-color: rgba(245, 197, 7, 0.88);
+    background-image:
+            linear-gradient(45deg, rgba(245, 197, 7, 1) 25%, transparent 25%, transparent 75%, rgba(245, 197, 7, 1) 75%, rgba(245, 197, 7, 1)),
+            linear-gradient(45deg, rgba(245, 197, 7, 1) 25%, transparent 25%, transparent 75%, rgba(245, 197, 7, 1) 75%, rgba(245, 197, 7, 1));
+    background-position: 0 0, 30px 30px;
+    background-size: 60px 60px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8) inset;
 }
 
 .general-content__header {
-	margin-bottom: 30px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: lighter;
 
-	text-transform: uppercase;
+    margin-bottom: 35px;
 
-	color: #ffffff;
+    text-transform: uppercase;
 
-	font-family: "PT Sans", sans-serif;
-	font-size: 2.5rem;
-	font-weight: lighter;
+    color: #ffffff;
 }
 
 .general-content__video {
-	float: left;
+    float: left;
 }
 
 .general-content__text {
-	color: #ffffff;
+    font-family: 'Segoe UI Light';
+    font-size: 1.8rem;
 
-	font-family: "Segoe UI Light";
-	font-size: 1.8rem;
+    color: #ffffff;
+}
+
+.general-content__icon-twitter {
+    font-size: 10rem;
+
+    margin-bottom: 15px;
+    margin-left: 20px;
+    padding-top: 15px;
+
+    text-align: center;
+    vertical-align: middle;
+
+    color: #c18000;
 }
 
 .general-content__twitter {
-	position: relative;
+    position: relative;
 
-	float: right;
+    float: right;
 
-	min-height: 235px;
-	padding-top: 20px;
-	padding-right: 20px;
+    min-height: 235px;
+    padding-top: 15px;
+    padding-right: 20px;
 
-	text-align: right;
+    text-align: right;
 
-	background-color: #ec9e03;
-	background-image: url("images/twitterIcon.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 50%;
+    background-color: #ec9e03;
 }
 
 .general-content::after {
-	display: table;
-	clear: both;
+    display: table;
+    clear: both;
 
-	content: "";
+    content: '';
 }
 
 .general-content__icon-add {
-	position: absolute;
-	right: 15px;
-	bottom: 15px;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
 
-	cursor: pointer;
+    cursor: pointer;
 
-	color: #ffffff;
-	border: none;
-	background-color: #ec9e03;
+    color: #ffffff;
+    border: none;
+    background-color: #ec9e03;
 }

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?o6rwlj');
-  src:  url('fonts/icomoon.eot?o6rwlj#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?o6rwlj') format('truetype'),
-    url('fonts/icomoon.woff?o6rwlj') format('woff'),
-    url('fonts/icomoon.svg?o6rwlj#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?1nc9sk');
+  src:  url('fonts/icomoon.eot?1nc9sk#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1nc9sk') format('truetype'),
+    url('fonts/icomoon.woff?1nc9sk') format('woff'),
+    url('fonts/icomoon.svg?1nc9sk#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -17,41 +17,35 @@
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 1;
+
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-envelope:before {
-  content: "\e904";
-}
-.icon-wrench:before {
+.icon-cloud:before {
   content: "\e900";
 }
-.icon-tool:before {
-  content: "\e900";
+.icon-plane:before {
+  content: "\e901";
 }
-.icon-settings:before {
-  content: "\e900";
+.icon-leaf:before {
+  content: "\e902";
+}
+.icon-envelop:before {
+  content: "\e945";
 }
 .icon-user:before {
   content: "\e971";
 }
+.icon-wrench:before {
+  content: "\e991";
+}
 .icon-plus:before {
   content: "\ea0a";
 }
-.icon-leaf:before {
-  content: "\e901";
-}
-.icon-cloud-download:before {
-  content: "\e902";
-}
-.icon-paper-plane:before {
-  content: "\e903";
-}
-.icon-send:before {
-  content: "\e903";
+.icon-twitter:before {
+  content: "\ea96";
 }
 

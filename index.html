@@ -8,7 +8,7 @@
     <link href="style.css" rel="stylesheet">
     <link href="common/common.css" rel="stylesheet">
     <link href="grid.css" rel="stylesheet">
-    <link href="common/wrapper-content/wrapper-content.css" rel="stylesheet">
+    <link href="common/content-wrapper/content-wrapper.css" rel="stylesheet">
     <link href="common/header/header.css" rel="stylesheet">
     <link href="common/features/features.css" rel="stylesheet">
     <link href="common/general-content/general-content.css" rel="stylesheet">
@@ -29,11 +29,11 @@
 </head>
 <body>
     <header class="header">
-        <div class="wrapper-content clearfix">
+        <div class="content-wrapper clearfix">
             <div class="header__external-logo">
                 <div class="header__logo">
                     <div class="logo">
-                        <div class="logo__image"></div>
+                        <img src="common/logo/images/logo.png" class="logo__image">
                         <span class="logo__text">THEYALOW</span>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                         </li>
                         <li class="navigation__list-item">
                             <button class="navigation__button">
-                                <span class="navigation__icon icon-envelope"></span>
+                                <span class="navigation__icon icon-envelop"></span>
                                 <span class="navigation__text">contact</span>
                             </button>
                         </li>
@@ -75,10 +75,10 @@
     </header>
     <main class="main">
         <section class="features">
-            <div class="wrapper-content clearfix">
+            <div class="content-wrapper clearfix">
                     <ul class="features__row-icons  grid grid-pad">
                         <li class="features__item col-1-3">
-                            <span class="features__icon icon-cloud-download"></span>
+                            <span class="features__icon icon-cloud"></span>
                             <p class="features__text">better design</p>
                         </li>
                         <li class="features__item col-1-3">
@@ -86,7 +86,7 @@
                             <p class="features__text">customize</p>
                         </li>
                         <li class="features__item col-1-3">
-                            <span class="features__icon icon-paper-plane"></span>
+                            <span class="features__icon icon-plane"></span>
                             <br>
                             <span class="features__text">its free</span>
                         </li>
@@ -95,7 +95,7 @@
             </div>
         </section>
         <section class="general-content">
-            <div class="wrapper-content grid grid-pad">
+            <div class="content-wrapper grid grid-pad">
                 <h2 class="general-content__header">Lorem ipsum dolor sit amet</h2>
                 <div class="general-content__video col-2-3">
                     <div class="video-content">
@@ -108,14 +108,16 @@
                 </div>
                 <div class="general-content__twitter col-1-3">
                     <span class="general-content__text">22</span>
+                    <br>
+                    <div class="general-content__icon-twitter icon-twitter"></div>
                     <button class="general-content__icon-add icon-plus"></button>
                 </div>
             </div>
         </section>
         <section class="advantages">
-            <div class="wrapper-content clearfix">
+            <div class="content-wrapper clearfix">
                 <h2 class="advantages__header">Lorem ipsum dolor sit amet</h2>
-                <div class="advantages__devices-placeholder">
+                <div class="advantages__devices">
                     <div class="devices">
                         <img class="devices__free" src="common/devices/images/itsFreeIcon.png">
                         <img class="devices__desktop" src="common/devices/images/desktopIcon.png">
@@ -123,7 +125,7 @@
                         <img class="devices__mobile" src="common/devices/images/mobileIcon.png">
                     </div>
                 </div>
-                <div class="advantages__list-placeholder">
+                <div class="advantages__list-container">
                     <ul class="advantages-list">
                         <li class="advantages-list__item"><span class="advantages-list__text">Sed ut perspiciatis, unde omnis</span></li>
                         <li class="advantages-list__item"><span class="advantages-list__text">Lorem ipsum dolor sit amet, consectetur adipiscing</span></li>
@@ -137,7 +139,7 @@
     <footer class="footer">
         <div class="footer__logo">
             <div class="logo">
-                <div class="logo__image logo__image--small"></div>
+                <img class="logo__image logo__image--small" src="common/logo/images/logo.png">
                 <p class="logo__text logo__text--small">THEYALOW</p>
             </div>
         </div>
