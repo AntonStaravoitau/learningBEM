@@ -1,6 +1,6 @@
 .advantages {
     width: 100%;
-    padding-top: 40px;
+    padding-top: 35px;
     padding-bottom: 75px;
 
     background: linear-gradient(45deg, #474747 12%, transparent 0, transparent 88%, #474747 0),
@@ -13,7 +13,6 @@
     font-family: 'PT Sans', sans-serif;
     font-size: 2.7rem;
 
-    margin-bottom: 7px;
 
     text-align: center;
     text-transform: uppercase;
@@ -23,6 +22,7 @@
 
 .advantages__devices {
     float: left;
+    margin-top: 37px;
 }
 
 .advantages__list-container {

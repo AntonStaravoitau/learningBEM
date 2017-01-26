@@ -3,11 +3,13 @@
     width: 100%;
 
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #ebebeb;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 2px, #f2f2f2 2px, #f2f2f2 4px);
 }
 
 .features__item {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 
     text-align: center;
     vertical-align: middle;
@@ -23,8 +25,8 @@
 }
 
 .features__icon {
-    font-size: 5.7rem;
-    line-height: 120%;
+    font-size: 4.1rem;
+    line-height: 142%;
 
     color: #f5c506;
 }

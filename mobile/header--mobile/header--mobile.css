@@ -1,0 +1,31 @@
+@media all and (max-width: 1100px) {
+    .header {
+        padding: 0;
+    }
+
+    .header-logo__text {
+        display: none;
+    }
+
+    .header__external-logo {
+        box-sizing: border-box;
+        width: 29%;
+        padding: 11px 0 10px 15px;
+
+        background-color: #4c4c4c;
+    }
+
+    .header__navigation {
+        width: 71%;
+        margin: 0;
+    }
+
+    .header__text {
+        display: none;
+    }
+
+    .header__video {
+        width: 100%;
+        margin: 0;
+    }
+}
