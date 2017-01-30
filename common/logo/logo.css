@@ -26,7 +26,6 @@
 .logo__image--small {
     width: 53px;
     height: 53px;
-
 }
 
 .logo__text--small {
@@ -41,4 +40,39 @@
     clear: both;
 
     content: '';
+}
+
+@media all and (max-width: 1100px) {
+    .logo__image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo__image--small {
+        width: 32px;
+        height: 32px;
+    }
+
+    .logo__text {
+        font-size: 1.3rem;
+
+        padding-top: 10px;
+    }
+
+    .logo__text--small {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 639px) {
+    .logo__image {
+        width: 20px;
+        height: 20px;
+    }
+
+    .logo__text {
+        font-size: 0.6rem;
+
+        padding-top: 5px;
+    }
 }

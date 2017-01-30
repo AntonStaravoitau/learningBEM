@@ -1,14 +1,12 @@
 .general-content {
+    position: relative;
+
+    overflow: hidden;
+
     width: 100%;
     padding-top: 30px;
     padding-bottom: 165px;
 
-    background-color: rgba(245, 197, 7, 0.88);
-    background-image:
-            linear-gradient(45deg, rgba(245, 197, 7, 1) 25%, transparent 25%, transparent 75%, rgba(245, 197, 7, 1) 75%, rgba(245, 197, 7, 1)),
-            linear-gradient(45deg, rgba(245, 197, 7, 1) 25%, transparent 25%, transparent 75%, rgba(245, 197, 7, 1) 75%, rgba(245, 197, 7, 1));
-    background-position: 0 0, 30px 30px;
-    background-size: 60px 60px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8) inset;
 }
 
@@ -79,4 +77,66 @@
     color: #ffffff;
     border: none;
     background-color: transparent;
+}
+
+@media all and (max-width: 1100px) {
+    .general-content {
+        box-sizing: border-box;
+        padding-top: 10px;
+        padding-bottom: 0;
+
+        background: #ffffff;
+        box-shadow: none;
+    }
+
+    .general-content__header {
+        display: none;
+    }
+
+    .general-content__video {
+        width: 100%;
+        margin: 0 0 8px 0;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .general-content__twitter {
+        width: 100%;
+        margin: 0;
+        padding-top: 20px;
+
+        background-color: #f5c507;
+    }
+
+    .general-content__twitter .general-content__icon-add,
+    .general-content__twitter .general-content__text {
+        display: none;
+    }
+}
+
+@media all and (max-width: 639px) {
+    .general-content__text {
+        font-size: 0.9rem;
+    }
+}
+
+.general-content:after {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+
+    display: block;
+
+    width: 2000px;
+
+    content: '';
+    transform: translateX(-50%);
+
+    background-color: rgba(245, 197, 7, 0.88);
+    background-image: linear-gradient(45deg, rgba(245, 197, 7, 1) 25%, transparent 25%, transparent 75%, rgba(245, 197, 7, 1) 75%, rgba(245, 197, 7, 1)), linear-gradient(45deg, rgba(245, 197, 7, 1) 25%, transparent 25%, transparent 75%, rgba(245, 197, 7, 1) 75%, rgba(245, 197, 7, 1));
+    background-position: 0 0, 30px 30px;
+    background-size: 60px 60px;
 }
